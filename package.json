@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.24",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "server": "^1.0.29"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "cd client && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "cd client && yarn install && yarn run build"
+  },
+  "name": "sezzle-calculator",
+  "version": "1.0.0",
+  "description": "A MERN stack Calculator application",
+  "main": "server.js",
+  "devDependencies": {},
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prithiviraj69/ajmera-Calculator.git"
+  },
+  "author": "Prithiviraj Elumalai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prithiviraj69/ajmera-Calculator"
+  },
+  "homepage": "",
+  "proxy": "http://localhost:3001"
+}
